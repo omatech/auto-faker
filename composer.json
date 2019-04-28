@@ -9,7 +9,7 @@
     },
     "require": {
         "fzaninotto/faker": "^1.8",
-        "symfony/yaml": "^4.3@dev"
+        "symfony/yaml": "^3.4"
     },
     "extra": {
         "laravel": {
