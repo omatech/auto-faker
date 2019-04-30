@@ -8,5 +8,5 @@ class AutoFakerFacade extends Facade
      *
      * @return string
      */
-    protected static function getFacadeAccessor() { return 'autofake'; }
+    protected static function getFacadeAccessor() { return 'autofaker'; }
 }
