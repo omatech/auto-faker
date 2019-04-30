@@ -27,7 +27,7 @@ class AutoFakerServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../../config/fake_record_format.yaml' => config_path('/autofaker/fake_record_format.yaml'),
             __DIR__.'/../../config/index.yaml' => config_path('/autofaker/index.yaml'),
-            __DIR__.'/../../views' => resources_path('/views/markup'),
+            __DIR__.'/../../views' => resource_path('/views/markup'),
         ], 'autofaker-publish');
     }
 }
