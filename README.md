@@ -39,8 +39,15 @@ You must create a file called resources/views/markup/xxx.blade.php where xxx is 
 
 5) You're DONE!
 
-
 If you need to add additional fields to each object generated modify the function getFakeRecord in the web.php file.
+
+The URLs to test the project are:
+
+/markup/index.html
+
+You can use the parameter debug-data to see only the generated data
+
+/markup/index.html?debug-data=true
 
 # Test
 
