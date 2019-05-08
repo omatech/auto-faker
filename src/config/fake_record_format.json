@@ -1,0 +1,120 @@
+{
+    "full_name": {
+        "type": "name"
+    },
+    "name": {
+        "type": "firstName"
+    },
+    "surname": {
+        "type": "lastName"
+    },
+    "address": {
+        "type": "address"
+    },
+    "city": {
+        "type": "city"
+    },
+    "province": {
+        "type": "state"
+    },
+    "zip_code": {
+        "type": "postcode"
+    },
+    "phone": {
+        "type": "phoneNumber"
+    },
+    "nif": {
+        "type": "dni"
+    },
+    "claim": {
+        "type": "catchPhrase"
+    },
+    "created_at": {
+        "type": "date"
+    },
+    "updated_at": {
+        "type": "date"
+    },
+    "date": {
+        "type": "date"
+    },
+    "datetime": {
+        "type": "datetime"
+    },
+    "datestring": {
+        "type": "datestring"
+    },
+    "url": {
+        "type": "url"
+    },
+    "text": {
+        "type": "text"
+    },
+    "words": {
+        "type": "words",
+        "params": [
+            3,
+            true
+        ]
+    },
+    "sentence": {
+        "type": "sentence"
+    },
+    "paragraph": {
+        "type": "paragraph"
+    },
+    "description": {
+        "type": "text"
+    },
+    "email": {
+        "type": "email"
+    },
+    "title": {
+        "type": "sentence"
+    },
+    "small_image": {
+        "type": "imageUrl",
+        "params": [
+            50,
+            50
+        ]
+    },
+    "medium_image": {
+        "type": "imageUrl",
+        "params": [
+            640,
+            480
+        ]
+    },
+    "big_image": {
+        "type": "imageUrl",
+        "params": [
+            2400,
+            960
+        ]
+    },
+    "boolean": {
+        "type": "boolean"
+    },
+    "active": {
+        "type": "boolean"
+    },
+    "price": {
+        "type": "randomFloat",
+        "params": [
+            2,
+            10,
+            200
+        ]
+    },
+    "status": {
+        "type": "randomElement",
+        "params": [
+            [
+                "active",
+                "pending",
+                "rejected"
+            ]
+        ]
+    }
+}

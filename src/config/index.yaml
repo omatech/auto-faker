@@ -1,8 +1,9 @@
 user:
   vehicles*:
-      revisions*:
+    revisions*:
 news*:
 menu:
-    groups*:
-          links*:
+  groups*:
+    links*:
+pages+:
           
