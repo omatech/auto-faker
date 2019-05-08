@@ -1,7 +1,8 @@
 # Installation
-
+```
 composer require omatech/auto-faker
 php artisan vendor:publish
+```
 
 # Usage
 
