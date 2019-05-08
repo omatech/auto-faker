@@ -19,15 +19,15 @@ class AutoFakerServiceProvider extends ServiceProvider
         });
 
         $this->publish();
-        $this->loadRoutesFrom(__DIR__.'/../../routes/web.php');
+        $this->loadRoutesFrom(__DIR__ . '/../../routes/web.php');
     }
 
-    private function publish ()
+    private function publish()
     {
         $this->publishes([
-            __DIR__.'/../../config/fake_record_format.yaml' => config_path('/autofaker/fake_record_format.yaml'),
-            __DIR__.'/../../config/index.yaml' => config_path('/autofaker/index.yaml'),
-            __DIR__.'/../../resources/views' => resource_path('/views/markup'),
+            __DIR__ . '/../../config/fake_record_format.yaml' => config_path('/autofaker/fake_record_format.json'),
+            __DIR__ . '/../../config/index.yaml' => config_path('/autofaker/index.yaml'),
+            __DIR__ . '/../../resources/views' => resource_path('/views/markup'),
         ], 'autofaker-publish');
     }
 }
