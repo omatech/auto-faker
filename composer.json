@@ -1,27 +1,27 @@
 {
-    "name": "omatech/auto-faker",
-    "description": "Generate large amounts of multidimensional arrays without effort",
-    "minimum-stability":"dev",	
-    "autoload": {
-        "psr-4": {
-            "Omatech\\": "src/Omatech"
-        }
-    },
-    "require": {
-        "fzaninotto/faker": "^1.8",
-        "symfony/yaml": "^3.4"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Omatech\\AutoFaker\\AutoFakerServiceProvider"
-            ],
-            "aliases": {
-                "AutoFaker": "Omatech\\AutoFaker\\AutoFakerFacade"
-            }
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^8"
-    } 
+  "name": "omatech/auto-faker",
+  "description": "Generate large amounts of multidimensional arrays without effort",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Omatech\\AutoFaker\\": "src"
+    }
+  },
+  "require": {
+    "fzaninotto/faker": "^1.8",
+    "symfony/yaml": "^3.4"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Omatech\\AutoFaker\\AutoFakerServiceProvider"
+      ],
+      "aliases": {
+        "AutoFaker": "Omatech\\AutoFaker\\AutoFakerFacade"
+      }
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
 }
